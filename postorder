@@ -1,0 +1,6 @@
+def postorder(node):
+    if node os None:
+        return
+    postorder(node.left)
+    postorder(node.right)
+    print(node.data,end=' ')
